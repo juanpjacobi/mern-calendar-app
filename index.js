@@ -13,7 +13,7 @@ dbConnection();
 
 
 // corss 
-app.use(cors({origin: "https://mern-calendar-front-wheat.vercel.app", credentials: true}));
+app.use(cors());
 
 
 // Directorio publico
