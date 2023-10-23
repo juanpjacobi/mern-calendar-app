@@ -11,12 +11,12 @@ const app = express();
 // Base ded atos 
 dbConnection();
 
-const corsOptions = {
-    origin: 'https://mern-calendar-front-wheat.vercel.app'
-}
+// const corsOptions = {
+//     origin: 'https://mern-calendar-front-wheat.vercel.app'
+// }
 
-// corss 
-app.use(cors(corsOptions));
+// // corss 
+// app.use(cors(corsOptions));
 
 
 // Directorio publico
