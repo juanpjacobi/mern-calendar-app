@@ -5,12 +5,21 @@
             "use": "@vercel/node"
         }
     ],
-    "routes":[
+    "routes": [
         {
-            "src":"/(.*)",
-            "dest": "/"
+          "src": "/(.*)",
+          "dest": "src/main.ts",
+          "methods": [
+            "get",
+            "post",
+            "put",
+            "patch",
+            "options",
+            "delete"
+          ]
         }
-    ]
+      ]
+    
     
     
 }
